@@ -1,0 +1,63 @@
+.baby{
+    color: brown;
+    text-align: right;
+}
+
+#name{
+    color: blue;
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(172, 155, 207);
+    vertical-align: top;
+    font-size: 20px;
+    padding-left: 200px;
+    text-align: justify;
+    letter-spacing: 10px;
+    height: 50px;
+    margin: 10px;
+    border-style: outset;
+    border-color: rgb(44, 44, 78);
+}
+
+#second{
+    background-color: rgb(131, 99, 159);
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    border-style: solid;
+    border-color: rgb(44, 44, 78);
+}
+
+#third{
+    background-color: rgb(147, 104, 183);
+    height: 200px;
+    margin: 10px;
+    padding: 100px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(44, 44, 78);
+}
+.nav{
+    list-style-type: none;
+}
+
+.welcome{
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+}

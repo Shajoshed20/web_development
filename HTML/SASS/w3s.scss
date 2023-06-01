@@ -1,0 +1,77 @@
+/*add navigation bar */
+@import "./varw3s";
+@import "./nav";
+@import "./btnsw3s";
+
+html{
+    background-color: $htmlbg;
+}
+.search{
+    background-color: rgb(49, 47, 47);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 40px;
+    margin: 0px;
+    border-bottom-right-radius: 10%;
+    h1{
+        color: $ntxtCol;
+        font-family: $fonttype;
+        font-size: 60px;
+    }
+    
+    h2{
+        color: $ntxtCol;
+        font-family: $fonttype;
+    }
+    input {
+        padding: 15px 150px 15px 15px;
+        border-radius: 30px;
+        align-items: center;
+    }
+    button{
+        background-color: green;
+        &:hover{
+            background-color: $ahover;
+        }
+    }
+
+    a{
+        color: $ntxtCol;
+        font-size: 25px;
+        &:hover{
+            color: $ahover;
+        }
+    }
+
+}
+
+.HTML{
+    background-color: $htmlbg;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 50px;
+    margin: auto;
+
+    h1{
+        font-size: 100px;
+        font-family: $fonttype;
+        margin-bottom: auto;
+    }
+    p{
+        font-family: $fonttype;
+        font-size:19px;
+        font-weight: 500;
+    }
+}
+
+.img {
+    padding-right: 10px;
+    padding-top: 120px;
+    padding-left: 120px;
+    margin: 10px;
+    &:shadow{
+        color: black;
+    }
+}

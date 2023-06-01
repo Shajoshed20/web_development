@@ -1,0 +1,55 @@
+// For the button styles
+.allbtns{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+@mixin btnstyle($textcolor, $color) {
+    background-color: $color;
+    color: $textcolor;
+    border-radius: 30px;
+    border: none;
+}
+
+@mixin btnsize() {
+    padding: 10px 42px;
+    margin: 10px;
+    font-family: $fonttype;
+    font-size: 15px;
+}
+
+#btn1{
+    @include btnstyle($ntxtCol, $btn1bg);
+    @include btnsize();
+    &:hover{
+        background-color: $btn1hover;
+    }
+}
+
+#btn2{
+    @include btnstyle($n2txtCol, $btn2bg);
+    @include btnsize();
+    &:hover{
+        background-color: $btn2hover;
+    }
+}
+
+#btn3{
+    @include btnstyle($ntxtCol, $btn3bg);
+    @include btnsize();
+    &:hover{
+        background-color: $btn3hover;
+    }
+}
+
+#btn4{
+    @include btnstyle($n2txtCol, $btn4bg);
+    @include btnsize();
+    &:hover{
+        background-color: $btn4hover;
+    }
+}

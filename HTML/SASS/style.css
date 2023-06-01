@@ -1,0 +1,29 @@
+h2, .contact {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: rgb(52, 142, 191);
+  text-align: center;
+  padding: 20px;
+  color: rgb(84, 84, 144);
+  height: 100px;
+}
+
+header button {
+  background: rgb(71, 41, 41);
+}
+
+.contact button {
+  background-color: rgb(71, 41, 41);
+}
+.contact button:hover {
+  background: rgb(129, 59, 127);
+}
+.contact button::after {
+  content: "Hellooo";
+}
+
+.contact {
+  background: lightcoral;
+}/*# sourceMappingURL=style.css.map */

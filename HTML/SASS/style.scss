@@ -1,0 +1,18 @@
+@import "./variables";
+@import "./header";
+
+.contact button{
+    background-color: $primaryBtn;
+    &:hover{
+        background: rgb(129, 59, 127);
+    }
+    &::after{
+        content: 'Hellooo';
+    }
+
+}
+
+.contact {
+    @extend h2;
+    background: lightcoral;
+}

@@ -1,0 +1,19 @@
+@mixin itemCenter($direction, $bg) {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: $direction;
+    background: $bg;
+}
+
+h2{
+    @include itemCenter(column, rgb(52, 142, 191));
+    text-align: center;
+    padding: 20px;
+    color: $textColor;
+    height: 100px;
+}
+
+header button{
+    background: $primaryBtn;
+}
