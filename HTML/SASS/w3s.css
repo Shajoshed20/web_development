@@ -122,7 +122,7 @@ html {
   display: flex;
   justify-content: center;
 }
-.search input {
+.search .searchbar input {
   padding: 10px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -130,7 +130,7 @@ html {
   align-items: center;
   border: none;
 }
-.search button {
+.search .searchbar button {
   background-color: green;
   padding: 10px;
   border-top-right-radius: 30px;
@@ -138,7 +138,7 @@ html {
   border: none;
   width: 100px;
 }
-.search button:hover {
+.search .searchbar button:hover {
   background-color: rgb(5, 97, 5);
 }
 .search a {

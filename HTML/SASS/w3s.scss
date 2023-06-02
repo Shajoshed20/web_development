@@ -27,26 +27,28 @@ html{
     .searchbar{
         display: flex;
         justify-content: center;
-    }
 
-    input {
-        padding: 10px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        width: 250px;
-        align-items: center;
-        border: none;
-    }
-    button{
-        background-color: green;
-        padding: 10px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border: none;
-        width: 100px;
-        &:hover{
-            background-color: $ahover;
+        input {
+            padding: 10px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            width: 250px;
+            align-items: center;
+            border: none;
         }
+
+        button{
+            background-color: green;
+            padding: 10px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border: none;
+            width: 100px;
+            &:hover{
+                background-color: $ahover;
+            }
+        }
+
     }
 
     a{
