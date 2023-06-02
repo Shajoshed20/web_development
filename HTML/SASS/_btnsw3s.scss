@@ -18,6 +18,7 @@
 @mixin btnsize() {
     padding: 10px 42px;
     margin: 10px;
+    width: 200px; //for the equal butten width
     font-family: $fonttype;
     font-size: 15px;
 }
